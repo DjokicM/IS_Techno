@@ -1,0 +1,34 @@
+public class MergeSort
+{
+    int[] unSorted;
+    
+    public void MergeSort(int[[] unSorted){
+      this.unSorted = unSorted;
+    }
+    
+    int Aufteilung(int [] original){
+    if(unSorted.length >1){
+         int[] rechts=rechteSeite(original)
+         int[] links=linkeSeite(original
+    }
+    }
+    
+    int [] linkeSeite(int[] array){
+    int size = array.length/2;
+    int[] left= new int[size];
+    for(int i=0; i<size; i++){
+    left[i]=array[i];
+    }
+    return left;
+    }
+    int [] rechteSeite(int[] array){
+    int size = array.length/2;
+    int finalSize = array.length - size;
+    int[] right= new int[finalSize];
+    for(int i=0; i<finalsize; i++){
+    right[i]=array[array.length/2+1+i];
+    }
+    return right;
+    }
+    
+}
